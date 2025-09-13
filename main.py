@@ -82,7 +82,7 @@ class CogSystem:
                     print(f"Warning: Module '{module_name}' has no main() function")
                 
                 end_time = time.time()
-               # print(f"✓ Completed in {end_time - start_time:.2f} seconds")
+               # print(f"Completed in {end_time - start_time:.2f} seconds")
                 
             except Exception as e:
                 print(f"Error in module '{module_name}': {e}")
