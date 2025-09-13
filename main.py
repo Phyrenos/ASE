@@ -105,8 +105,7 @@ def printLogo():
     \  \:\         /__/:/       \  \::/   
      \__\/         \__\/         \__\/    
 
-Hello {}. I see you are using ASE framework which is a private OSINT, either you got it from tribune or you ratted him.
-Well have fun atleast :))
+Hello {}. I see you are using ASE framework which is a modular OSINT
 """.format(os.getlogin()))
 
 def main():
