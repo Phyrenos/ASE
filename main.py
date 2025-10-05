@@ -14,7 +14,7 @@ class CogSystem:
     def set_shared_data(self, **kwargs):
         """Set data to be shared with all modules"""
         self.shared_data.update(kwargs)
-        #print(f"Shared data set: {list(self.shared_data.keys())}")
+        #print(f"Shared data set: {list(self.shared_data.keys())}") #
     
     def load_modules(self):
         """Load all Python modules from the modules directory"""
