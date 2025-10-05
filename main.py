@@ -65,7 +65,6 @@ class CogSystem:
             
            # print(f"\n[+] Running module: {module_name}")
            # print("-" * 30)
-            # wow
             try:
                 start_time = time.time()
                 
